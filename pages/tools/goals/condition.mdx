@@ -1,0 +1,41 @@
+---
+title: "Conditions"
+description: "The only Journal you'll need"
+---
+
+## Condition Logic
+
+Advanced training blocks can factor complex statistics and variables when deciding an athletes goal.
+
+We support this functionality in-platform by setting conditions which will modify goal-targets
+
+### If this, then ...
+
+A condition will change a goal target based if a statistics value meets a threshold in your training block.
+
+TODO; insert mermaid diagram
+TODO; Add condition form screen shot
+
+## Creating a condition
+
+<Steps>
+  <Step title="Select Goal">Click the goal from the dashboard</Step>
+  <Step title="Select Add Condition"></Step>
+  <Step title="Select Statistic">
+    We will provide you a list of the in-block statistics being track. If the
+    statistic is not yet created, then see [creating a
+    statistic](../statistics/add).
+  </Step>
+  <Step title="Choose Threshold Operator">
+    Either: Less Than, Equal To, or Greater Than{" "}
+  </Step>
+  <Step title="Choose Activation Value">
+    The value for us to flag the acceptence prompt to modify the goal
+  </Step>
+</Steps>
+
+## How it works
+
+Everytime you lodge a data point for a measured trackable we recaulate both the statistics and the goals in the training block.
+
+If the re-calculated statistic is above/below/equal to the threshold value, then Block Bear will display an approval modal to update the goal with a new phase.

@@ -1,73 +1,118 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "maple",
+  "theme": "linden",
   "name": "Bananana Starter Kit",
   "colors": {
     "primary": "#16A34A",
     "light": "#07C983",
     "dark": "#15803D"
   },
+  "fonts": {
+    "family": "Inter",
+    "heading": {
+      "family": "Inter",
+      "weight": "600"
+    },
+    "body": {
+      "family": "Inter",
+      "weight": "400"
+    }
+  },
+  "customScripts": ["/styles.css"],
   "favicon": "/favicon.svg",
   "navigation": {
+    "global": {
+      "anchors": [
+        {
+          "anchor": "Home",
+          "href": "https:localhost:3000"
+        },
+        {
+          "anchor": "Join Founder Waitlist",
+          "href": "https://mintlify.com/docs"
+        }
+      ]
+    },
     "tabs": [
       {
-        "tab": "Guides",
+        "tab": "Home",
+        "pages": ["/pages/home/index", "/pages/home/what-is-a-training-block"]
+      },
+      {
+        "tab": "For Bears",
         "groups": [
           {
-            "group": "Get Started",
-            "pages": ["index", "quickstart", "development"]
-          },
-          {
-            "group": "Essentials",
-            "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/settings",
-              "essentials/navigation",
-              "essentials/reusable-snippets"
-            ]
+            "group": "Group 1",
+            "pages": ["/pages/for-bears/for-bears"]
           }
         ]
       },
       {
-        "tab": "API Reference",
+        "tab": "For Coaches",
+        "pages": ["/pages/for-coaches/for-coaches"]
+      },
+      {
+        "tab": "For Clubs",
+        "pages": ["/pages/for-clubs/for-clubs"]
+      },
+      {
+        "tab": "Tools",
         "groups": [
           {
-            "group": "API Documentation",
-            "pages": ["api-reference/introduction"]
+            "group": "Create and Import Blocks",
+            "pages": [
+              "/pages/tools/create/getting-started",
+              "/pages/tools/create/ai",
+              "/pages/tools/create/marketplace"
+            ]
           },
           {
-            "group": "Endpoint Examples",
+            "group": "Schedule",
             "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
+              "/pages/tools/schedule/features",
+              "/pages/tools/schedule/edit-schedule",
+              "/pages/tools/schedule/trackable-projections"
             ]
+          },
+          {
+            "group": "Trackables",
+            "pages": [
+              "/pages/tools/trackables/features",
+              "/pages/tools/trackables/calculated-trackables",
+              "/pages/tools/trackables/measured-trackables",
+              "/pages/tools/trackables/base-trackables"
+            ]
+          },
+          {
+            "group": "Statistics",
+            "pages": [
+              "/pages/tools/statistics/features",
+              "/pages/tools/statistics/add",
+              "/pages/tools/statistics/configure"
+            ]
+          },
+          {
+            "group": "Goals",
+            "pages": [
+              "/pages/tools/goals/features",
+              "/pages/tools/goals/goal-deep-analytics",
+              "/pages/tools/goals/dynamic-goals",
+              "/pages/tools/goals/condition",
+              "/pages/tools/goals/add",
+              "/pages/tools/goals/configure"
+            ]
+          },
+          {
+            "group": "Journal",
+            "pages": ["/pages/tools/journal"]
           }
         ]
+      },
+      {
+        "tab": "Examples",
+        "pages": ["/pages/examples/examples"]
       }
-    ],
-    "global": {
-      "anchors": [
-        {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
-        },
-        {
-          "anchor": "Community",
-          "href": "https://mintlify.com/community",
-          "icon": "slack"
-        },
-        {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
-        }
-      ]
-    }
+    ]
   },
   "logo": {
     "light": "/logo/light.svg",
