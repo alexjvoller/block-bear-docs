@@ -3,7 +3,7 @@
   "theme": "linden",
   "name": "Bananana Starter Kit",
   "colors": {
-    "primary": "#16A34A",
+    "primary": "#9062D4",
     "light": "#07C983",
     "dark": "#15803D"
   },
@@ -115,8 +115,8 @@
     ]
   },
   "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
+    "light": "/logo/Logo.svg",
+    "dark": "/logo/Logo.svg"
   },
   "navbar": {
     "links": [
