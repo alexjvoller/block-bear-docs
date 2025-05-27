@@ -1,7 +1,7 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "linden",
-  "name": "Bananana Starter Kit",
+  "name": "Block Bear",
   "colors": {
     "primary": "#9062D4",
     "light": "#07C983",
@@ -36,7 +36,11 @@
     "tabs": [
       {
         "tab": "Home",
-        "pages": ["/pages/home/index", "/pages/home/what-is-a-training-block"]
+        "pages": ["/pages/home/index"]
+      },
+      {
+        "tab": "Blocks",
+        "pages": ["/pages/blocks/blocks"]
       },
       {
         "tab": "For Bears",
