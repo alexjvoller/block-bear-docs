@@ -4,8 +4,8 @@
   "name": "Block Bear",
   "colors": {
     "primary": "#9062D4",
-    "light": "#07C983",
-    "dark": "#15803D"
+    "light": "#f1edf7",
+    "dark": "#563881"
   },
   "fonts": {
     "family": "Inter",
@@ -43,7 +43,7 @@
         "pages": ["/pages/blocks/blocks"]
       },
       {
-        "tab": "For Bears",
+        "tab": "Bears",
         "groups": [
           {
             "group": "Group 1",
@@ -52,11 +52,11 @@
         ]
       },
       {
-        "tab": "For Coaches",
+        "tab": "Coaches",
         "pages": ["/pages/for-coaches/for-coaches"]
       },
       {
-        "tab": "For Clubs",
+        "tab": "Clubs",
         "pages": ["/pages/for-clubs/for-clubs"]
       },
       {
