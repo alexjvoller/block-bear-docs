@@ -31,6 +31,10 @@
     },
     "tabs": [
       {
+        "tab": "Home",
+        "pages": ["/pages/home/index"]
+      },
+      {
         "tab": "You",
         "pages": ["/pages/blocks/blocks"]
       },
