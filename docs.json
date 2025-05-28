@@ -24,20 +24,12 @@
     "global": {
       "anchors": [
         {
-          "anchor": "Home",
-          "href": "https:localhost:3000"
-        },
-        {
           "anchor": "Join the Launch Waitlist",
           "href": "https://docs.google.com/forms/d/e/1FAIpQLSc6rsouNnUsDthJATvblnFAtIaJfYlgU3TQQ0Cdd554du2VEQ/viewform?usp=header"
         }
       ]
     },
     "tabs": [
-      {
-        "tab": "Home",
-        "pages": ["/pages/home/index"]
-      },
       {
         "tab": "You",
         "pages": ["/pages/blocks/blocks"]
