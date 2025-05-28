@@ -28,8 +28,8 @@
           "href": "https:localhost:3000"
         },
         {
-          "anchor": "Join Founder Waitlist",
-          "href": "https://mintlify.com/docs"
+          "anchor": "Join the Launch Waitlist",
+          "href": "https://docs.google.com/forms/d/e/1FAIpQLSc6rsouNnUsDthJATvblnFAtIaJfYlgU3TQQ0Cdd554du2VEQ/viewform?usp=header"
         }
       ]
     },
@@ -131,8 +131,8 @@
     ],
     "primary": {
       "type": "button",
-      "label": "Dashboard",
-      "href": "https://dashboard.mintlify.com"
+      "label": "Join Waitlist",
+      "href": "https://docs.google.com/forms/d/e/1FAIpQLSc6rsouNnUsDthJATvblnFAtIaJfYlgU3TQQ0Cdd554du2VEQ/viewform?usp=header"
     }
   },
   "footer": {
