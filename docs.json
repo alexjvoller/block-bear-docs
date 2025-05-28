@@ -32,7 +32,7 @@
     "tabs": [
       {
         "tab": "Home",
-        "pages": ["/pages/home/index"]
+        "pages": ["/pages/hippo/hippo"]
       },
       {
         "tab": "You",
