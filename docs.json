@@ -39,7 +39,7 @@
         "pages": ["/pages/home/index"]
       },
       {
-        "tab": "Blocks",
+        "tab": "You",
         "pages": ["/pages/blocks/blocks"]
       },
       {
@@ -125,8 +125,8 @@
   "navbar": {
     "links": [
       {
-        "label": "Support",
-        "href": "mailto:hi@mintlify.com"
+        "label": "Contact",
+        "href": "mailto:alexjvoller@gmail.com"
       }
     ],
     "primary": {
