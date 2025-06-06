@@ -1,6 +1,6 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "linden",
+  "theme": "maple",
   "name": "Block Bear",
   "colors": {
     "primary": "#9062D4",
@@ -21,42 +21,13 @@
   "customScripts": ["/styles.css"],
   "favicon": "/favicon.svg",
   "navigation": {
-    "global": {
-      "anchors": [
-        {
-          "anchor": "Join the Launch Waitlist",
-          "href": "https://docs.google.com/forms/d/e/1FAIpQLSc6rsouNnUsDthJATvblnFAtIaJfYlgU3TQQ0Cdd554du2VEQ/viewform?usp=header"
-        }
-      ]
-    },
-    "tabs": [
+    "anchors": [
       {
-        "tab": "Home",
-        "pages": ["/pages/hippo/hippo"]
+        "anchor": "Join the Launch Waitlist",
+        "href": "https://docs.google.com/forms/d/e/1FAIpQLSc6rsouNnUsDthJATvblnFAtIaJfYlgU3TQQ0Cdd554du2VEQ/viewform?usp=header"
       },
       {
-        "tab": "You",
-        "pages": ["/pages/blocks/blocks"]
-      },
-      {
-        "tab": "Bears",
-        "groups": [
-          {
-            "group": "Group 1",
-            "pages": ["/pages/for-bears/for-bears"]
-          }
-        ]
-      },
-      {
-        "tab": "Coaches",
-        "pages": ["/pages/for-coaches/for-coaches"]
-      },
-      {
-        "tab": "Clubs",
-        "pages": ["/pages/for-clubs/for-clubs"]
-      },
-      {
-        "tab": "Tools",
+        "anchor": "Documentation",
         "groups": [
           {
             "group": "Create and Import Blocks",
@@ -101,16 +72,8 @@
               "/pages/tools/goals/add",
               "/pages/tools/goals/configure"
             ]
-          },
-          {
-            "group": "Journal",
-            "pages": ["/pages/tools/journal"]
           }
         ]
-      },
-      {
-        "tab": "Examples",
-        "pages": ["/pages/examples/examples"]
       }
     ]
   },
