@@ -23,14 +23,9 @@
   "customScripts": ["/styles.css"],
   "favicon": "/favicon.ico",
   "navigation": {
-    "anchors": [
+    "tabs": [
       {
-        "anchor": "Join the Launch Waitlist",
-        "icon": "gift ",
-        "href": "https://docs.google.com/forms/d/e/1FAIpQLSc6rsouNnUsDthJATvblnFAtIaJfYlgU3TQQ0Cdd554du2VEQ/viewform?usp=header"
-      },
-      {
-        "anchor": "Documentation",
+        "tab": "Documentation",
         "groups": [
           {
             "group": "Create and Import Blocks",
