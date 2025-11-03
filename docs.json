@@ -28,48 +28,34 @@
         "tab": "Documentation",
         "groups": [
           {
-            "group": "Create and Import Blocks",
+            "group": "about",
             "pages": [
-              "/pages/tools/create/getting-started",
-              "/pages/tools/create/ai",
-              "/pages/tools/create/marketplace"
+              "/pages/about/index",
+              "/pages/about/journal",
+              "/pages/about/goals",
+              "/pages/about/trends",
+              "/pages/about/blocks"
             ]
           },
           {
-            "group": "Schedule",
+            "group": "home",
             "pages": [
-              "/pages/tools/schedule/features",
-              "/pages/tools/schedule/edit-schedule",
-              "/pages/tools/schedule/trackable-projections"
+              "/pages/home/home",
+              "/pages/home/sidebar",
+              "/pages/home/settings"
             ]
           },
           {
-            "group": "Trackables",
+            "group": "current block",
             "pages": [
-              "/pages/tools/trackables/features",
-              "/pages/tools/trackables/calculated-trackables",
-              "/pages/tools/trackables/measured-trackables",
-              "/pages/tools/trackables/base-trackables"
+              "/pages/current-block/journal",
+              "/pages/current-block/pinboard",
+              "/pages/current-block/block-settings"
             ]
           },
           {
-            "group": "Statistics",
-            "pages": [
-              "/pages/tools/statistics/features",
-              "/pages/tools/statistics/add",
-              "/pages/tools/statistics/configure"
-            ]
-          },
-          {
-            "group": "Goals",
-            "pages": [
-              "/pages/tools/goals/features",
-              "/pages/tools/goals/goal-deep-analytics",
-              "/pages/tools/goals/dynamic-goals",
-              "/pages/tools/goals/condition",
-              "/pages/tools/goals/add",
-              "/pages/tools/goals/configure"
-            ]
+            "group": "your library",
+            "pages": ["/pages/library/plans", "/pages/library/sessions"]
           }
         ]
       }

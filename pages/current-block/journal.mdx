@@ -1,0 +1,459 @@
+---
+title: "journal"
+description: "card based journalling system"
+---
+
+      <Frame>
+
+  <img className="block" src="/images/journal (m-pin).png" alt="Hero Light" />
+</Frame>
+
+| Num | Description         |
+| --- | ------------------- |
+| 1   | Trackable Searchbar |
+| 2   | Day Header          |
+| 3   | Day Options Button  |
+| 4   | Day Statistics      |
+| 5   | Card Swiper Deck    |
+| 6   | Previous Day Button |
+| 7   | Next Day Button     |
+| 8   | Grid / Card Toggle  |
+
+### toggle grid view
+
+<Steps>
+  <Step title="">
+    to quickly view all the days in the block click the grid toggle
+
+          <Frame>
+
+  <img className="block" src="/images/joural (grid view).png" alt="Hero Light" />
+</Frame>
+
+  </Step>
+  <Step title="">
+    clicking on the day card will open the nav the carousel to the day you
+    selected
+  </Step>
+</Steps>
+
+## day flows
+
+### add a card from catalogue
+
+<Steps>
+  <Step title="">
+
+    search for the card from the search bar. this will allow you to add any
+    measured, calculated, activity or activity session card from the catalogue
+    or your own.
+
+    If you select an activity card, the card will automatically be added to a blank session. Click into the session to view the activity card.
+
+      <Frame>
+
+  <img className="block" src="/images/search-bar.png" alt="Hero Light" />
+</Frame>
+  </Step>
+</Steps>
+
+### add a session card from library
+
+<Steps>
+  <Step title="">
+    click on the searchbar and select the sessions button from “your library”
+    section.
+  </Step>
+  <Step title="">
+    search for your session in the add-user-session-to-day modal to enable you
+    to add the session to the current day
+
+    <Frame>
+
+  <img className="block" src="/images/add-user-session-to-day-modal.png" alt="Hero Light" />
+</Frame>
+  </Step>
+</Steps>
+
+### delete a card
+
+<Steps>
+  <Step title="">
+    select the vertical ellipses and select "delete top card" from the
+    day-options
+  </Step>
+</Steps>
+
+### navigate to a different day
+
+<Steps>
+  <Step title="">
+    either scroll through the day carousel or select grid view to view all of
+    the day cards in your block.
+  </Step>
+</Steps>
+
+## activity session flows
+
+     <Frame>
+
+  <img className="block" src="/images/sessionName.png" alt="Hero Light" />
+</Frame>
+
+| Num | Description                   |
+| --- | ----------------------------- |
+| 1   | Session Header and Breadcrumb |
+| 2   | Session Actions               |
+| 3   | Session Options               |
+| 4   | Session Options               |
+| 5   | Card Swiper Deck              |
+| 6   | Nav Back to Day               |
+
+### view an activity session
+
+<Steps>
+  <Step title="">
+    tap the view button of the activity session card to open the
+    activity-session-carousel. This will display all of the activity cards in
+    the session.
+  </Step>
+</Steps>
+
+### add an activity card to a session
+
+<Steps>
+  <Step title="">
+    add an activity card from the same "add cards" search bar in the journal. If
+    you add an a-session-card or measure card whilst viewing the session, a
+    toast will remind you that only activity cards can be added to a session.
+  </Step>
+</Steps>
+
+### delete an activity card from a session
+
+<Steps>
+  <Step title="">
+    add an activity card from the same "add cards" search bar in the journal. If
+    you add an a-session-card or measure card whilst viewing the session, a
+    toast will remind you that only activity cards can be added to a session.
+  </Step>
+</Steps>
+
+### stop an activity session
+
+<Note>Session Actions Coming Soon</Note>
+<Steps>
+  <Step title="">
+    from the activity-session-carousel, select the stop button from the
+    activity-session-session-options-group to stop the session timer. If the
+    session is a recorded session, the recorded will stop for the input fields.
+  </Step>
+</Steps>
+
+### finish an activity session
+
+<Steps>
+  <Step title="">
+    select the finish button from the activity-session-options-group.
+  </Step>
+</Steps>
+
+### finishing a manual session
+
+<Steps>
+  <Step title="">
+    when you finish a manual session, make sure to review the completion status
+    of the sessions cards before submitting the session. For example if you have
+    only completed 3/5 cards, then the session will only appear to show 60%
+    completion once submitted.
+  </Step>
+</Steps>
+
+### finishing a manual session without starting
+
+<Steps>
+  <Step title="">
+    if you don't care about recording session time, feel free to complete the
+    cards directly using the card submit group
+  </Step>
+</Steps>
+
+### finishing a recorded session
+
+<Note>Recorded SessionsComing Soon</Note>
+
+<Steps>
+  <Step title="">
+    when finishing a recorded session, there is no need to manually complete the
+    activity cards. The recorded fields will be submitted when you click the
+    finish the session.
+  </Step>
+</Steps>
+
+### select either manual or record input types
+
+<Note>Recorded SessionsComing Soon</Note>
+
+<Steps>
+  <Step title="">
+    from the activity-session-carousel, select the vertical ellipses from the
+    options group and select either "manual" or "recorded" session. The session
+    badge type will change from to either a pencil or a watch, and the available
+    options in the action-group will be updated to reflect.
+  </Step>
+</Steps>
+
+## activity card flows
+
+## measured card flows
+
+  <Frame>
+
+  <img className="block" src="/images/labelled-a-card.png" alt="Hero Light" />
+</Frame>
+
+| Num | Description                                        |
+| --- | -------------------------------------------------- |
+| 1   | Activity Trackable Header                          |
+| 2   | Input Type and Completion Status (recorded/manual) |
+| 3   | Field Name and Actual Value                        |
+| 4   | Field Target and Options                           |
+| 5   | Athlete Notes                                      |
+| 6   | Quick Complete Button                              |
+| 7   | Go To Pin Button                                   |
+| 8   | Complete Button                                    |
+
+### view session targets
+
+<Steps>
+  <Step title="">
+    for both measured and activity cards, if a goal has been set from the
+    pinboard then the target field will display the target on the right hand
+    side of field. Targets are represented by either "goal", "calculated" or
+    "historic" badges.
+  </Step>
+</Steps>
+
+### set goal targets
+
+<Steps>
+  <Step title="">
+    a goal target is the primary method of setting target fields for sessions. A
+    goal target is the value that a session should have to follow the target
+    trendline of the goal that is applied to the session pin. For example if you
+    have pinned bodyweight and set a 0.25% incremental percentage goal per.week,
+    then the target field will increment at 2.5% per week for the weight field
+    inside the bodyweight card.
+  </Step>
+  <Step title="">
+    To apply a goal-target, first pin the card, and select the goal icon when
+    viewing from your pinboard. You will be prompted to confirm that throughout
+    the rest of the block the target fields in the session-cards will be updated
+    to goal targets.
+  </Step>
+  <Step title="">
+    Once applied, the target badge is updated to a graph symbol.
+  </Step>
+</Steps>
+
+### set calculated targets
+
+<Steps>
+  <Step title="">
+    a calculated target uses an equation to calculate what the target field of
+    an activity should be. For example 80% 1RM is an equation which multiples
+    your 1 rep map by 0.8. to quickly set a a calculated target on a field tap
+    the vertical ellipses on in the field options and select "set calculated
+    target". This will open the set-calculated-target-modal which will allow you
+    to select a calculation from the calculated-trackable-catalogue.
+  </Step>
+  <Step title="">
+    Once selected the field will have a calculator in the target badge with
+    truncated display text to indicate which calculation is applied to the
+    target fields.
+  </Step>
+</Steps>
+
+### complete an activity
+
+<Steps>
+  <Step title="">
+    manually completing activity cards is only available when the session is set
+    to manual. This is because if set to auto, then cards will be automatically
+    completed once the session is finished
+  </Step>
+</Steps>
+
+### using complete
+
+<Steps>
+  <Step title="">
+    tap the complete button at the bottom of the activity for the card to submit
+    with it's current inputs
+  </Step>
+</Steps>
+
+### using quick complete
+
+<Note>Quick Complete Soon</Note>
+
+<Steps>
+  <Step title="">
+    tap the quick complete button at the bottom of the activity to use
+    quick-complete. this will automatically update any empty input fields to the
+    target when submitted; allowing you to quickly only add the fields in the
+    workout which were different to the target
+  </Step>
+</Steps>
+
+### pin an activity card
+
+<Steps>
+  <Step title="">
+    to create a pin select the pin in the footer of the card.activities can have
+    several fields, however each activity pin can only have one dynamic field,
+    and optionally a static field for increased specificity on your pin. When
+    pinning an activity, you will be prompted to either create a new pin with
+    different fields or continue to an existing pin (if it matches) through the
+    select-a-pin-modal
+  </Step>
+</Steps>
+
+  <Frame>
+
+  <img className="block" src="/images/select-a-pin-modal.png" alt="Hero Light" />
+</Frame>
+
+## measured card flows
+
+  <Frame>
+
+  <img className="block" src="/images/labelled-m-card.png" alt="Hero Light" />
+</Frame>
+
+| Num | Description                  |
+| --- | ---------------------------- |
+| 1   | Measured Trackable Header    |
+| 2   | Input Type (recorded/manual) |
+| 3   | Completion Status            |
+| 4   | Field Option Dropdown        |
+| 5   | Actual Value                 |
+| 6   | Target Value                 |
+| 7   | Athlete Notes                |
+| 8   | Quick Complete Button        |
+| 9   | Go to Pin Button             |
+| 10  | Complete Button              |
+
+### select either manual or record input types
+
+<Steps>
+  <Step title="">
+    tap on the input badge to select the input-type to change input type or
+    record with the input-select-modal. Alternatively tap the vertical ellipses
+    to select recorded value.
+  </Step>
+</Steps>
+
+### view targets
+
+<Steps>
+  <Step title="">
+    tap on the pin to navigate to the pinboard to a goal. When the goal is
+    created, all journal entries which match the pin will be updated and the
+    target badge will show the graph.
+  </Step>
+</Steps>
+
+### set goal target
+
+<Steps>
+  <Step title="">
+    tap the field options and select "align to pin goal". This will return the
+    value of the target value for the m-card given the target trendline. if the
+    pin does not have a corresponding goal, the option will read "create pin
+    goal"m where you will be navtigated to the pin so you can create a goal.
+  </Step>
+  <Step title="">
+    After the goal target is set, the field will have the goal target badge.
+  </Step>
+</Steps>
+
+### set manual target
+
+<Steps>
+  <Step title="">
+    tap the field options and select "set manual goal". This will open the
+    set-goal-value-modal allowing you to manually input the target value.
+  </Step>
+  <Step title="">
+    Aftet the goal target is set, the field will the pencil target badge.
+  </Step>
+</Steps>
+
+  <Frame>
+
+  <img className="block" src="/images/set-target-value-modal.png" alt="Hero Light" />
+</Frame>
+
+### pin a measured card
+
+<Steps>
+  <Step title="">to create a pin select the pin in the footer of the card</Step>
+</Steps>
+
+### complete a measure card
+
+<Steps>
+  <Step title="">
+    manually completing activity cards is only available when the session is set
+    to manual. This is because if set to auto, then cards will be automatically
+    completed once the session is finished.
+  </Step>
+</Steps>
+
+### using complete
+
+<Steps>
+  <Step title="">
+    tap the complete button at the bottom of the activity for the card to submit
+    with it's current inputs
+  </Step>
+</Steps>
+
+### using quick complete
+
+<Note>Quick Complete Soon</Note>
+
+<Steps>
+  <Step title="">
+    tap the quick complete button at the bottom of the activity to use
+    quick-complete. this will automatically update any empty input fields to the
+    target when submitted; allowing you to complete the card without typing in
+    any inputs if you hit your target.
+  </Step>
+</Steps>
+
+## calculation flows
+
+  <Frame>
+
+  <img className="block" src="/images/labelled-c-card.png" alt="Hero Light" />
+</Frame>
+
+| Num | Description                  |
+| --- | ---------------------------- |
+| 1   | Calculation Trackable Header |
+| 2   | Input Type (calculated)      |
+| 3   | Value                        |
+| 4   | View Math Accordian          |
+| 5   | View Reference Accordian     |
+| 6   | Go To Pin Button             |
+| 7   | Disabled Complete Button     |
+
+### view the math
+
+tap on ‘view the math’ button to view how we calculated the value and the formula we used.
+
+### view the reference
+
+for equations which have a reference; we’ll provide the link so you can do your own reseach.
