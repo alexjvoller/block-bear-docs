@@ -11,7 +11,14 @@ Block Bear's approach allows you to select the things you want to track from an 
 
 Select the cards you care about, build goals and journalling sessions around them, or search the community for science-based presets.
 
-**Never be frustrated with the scope of your fitness app again. Never switch apps as you switch coaches or sports. A journal which can finally meet you at your training ambitions and match your schedule requriements.**
+<div
+  className="p-5 border-4 bg-white rounded-2xl"
+  style={{ borderColor: "var(--purple-300)" }}
+>
+  ***Your data. Your goals. Your rhythm.*** Build, track, and refine every part
+  of your training with modular cards and adaptive blocks that fit your schedule
+  — not the other way around.
+</div>
 
 All cards support trends and goals allowing you to see progression throughout your training. We couple insights with tools like 'in-flight goal adjustments' so you never have to abandon your plans. Rather; make the nutritional or training adjustments you need to stay on track.
 
@@ -71,37 +78,99 @@ The above flow is the core of our journalling methodology, and the simplest meth
 
 Measured cards are things that are measured. Bodyweight, daily step count, max-speed on a wave, total elevation or all examples of measured-cards
 
-<Frame>
-  <img className="block" src="/images/m-card-hero.png" alt="Hero Light" />
-</Frame>
-
+<Columns cols={2}>
+  <div>
+    <div
+      style={{
+        fontFamily: "Lazer84",
+        color: "var(--lilac-300)",
+        marginBottom: "1rem",
+        fontSize: "1.5rem",
+      }}
+    >
+      features
+    </div>
+    <div className="flex flex-col gap-4 font-bold">
+      <div>smart or manual target values</div>
+      <div>recorded or manual input</div>
+      <div>notes</div>
+      <div>pin to pinboard</div>
+      <div>autocomplete for recorded cards</div>
+      <div>complete or quick complete for manual cards</div>
+    </div>
+  </div>
+  <Frame>
+    <img className="block" src="/images/m-card.png" alt="Hero Light" />
+  </Frame>
+</Columns>
 ### Activity Cards
 
 Activity cards are for activities. Bench press, run, surf, intervals, lateral raise, toe touches are all examples of activities
 
+<Columns cols={2}>
 <Frame>
-  <img className="block" src="/images/a-card-hero.png" alt="Hero Light" />
+  <img className="block" src="/images/a-card.png" alt="Hero Light" />
 </Frame>
+<div>
+  <div style={{ fontFamily: 'Lazer84', color: 'var(--cardinal-300)', marginBottom: '1rem', fontSize: '1.5rem' }}>features</div>
+  <div className="flex flex-col gap-4 font-bold">
+    <div>smart or manual target values</div>
+    <div>recorded or manual input</div>
+    <div>notes</div>
+    <div>pin to pinboard</div>
+    <div>autocomplete for recorded cards</div>
+    <div>complete or quick complete for manual cards</div>
+  </div>
+</div>
+
+</Columns>
 
 ### Activity Session Cards
 
 Activity Sessions are collecitons of activites. For example an interval sessions is multiple intervals, and a chest workout is multiple sets of fly's, bench, incline.
 
-<Frame>
-  <img
-    className="block"
-    src="/images/a-session-card-hero.png"
-    alt="Hero Light"
-  />
-</Frame>
+<Columns cols={2}>
+
+  <div>
+    <div
+      style={{
+        fontFamily: "Lazer84",
+        color: "var(--cardinal-300)",
+        marginBottom: "1rem",
+        fontSize: "1.5rem",
+      }}
+    >
+      features
+    </div>
+    <div className="flex flex-col gap-4 font-bold">
+      <div>groups os activity cards</div>
+      <div>total session time</div>
+      <div>notes</div>
+    </div>
+  </div>
+  <Frame>
+    <img className="block" src="/images/a-session-card.png" alt="Hero Light" />
+  </Frame>
+</Columns>
 
 ### Calculation Cards
 
 Calculations are those caculated insights you need. Total Daily Protein and Energy, Theoretical VO2Max, BMI are all examples of calculation cards.
 
+<Columns cols={2}>
 <Frame>
-  <img className="block" src="/images/c-card-hero.png" alt="Hero Light" />
+  <img className="block" src="/images/c-card.png" alt="Hero Light" />
 </Frame>
+<div>
+  <div style={{ fontFamily: 'Lazer84', color: 'var(--remy-300)', marginBottom: '1rem', fontSize: '1.5rem' }}>features</div>
+  <div className="flex flex-col gap-4 font-bold">
+    <div>calculated values off your real-time block data</div>
+    <div>review the calculation</div>
+    <div>review the reference</div>
+  </div>
+</div>
+
+</Columns>
 
 ## Card Features
 
