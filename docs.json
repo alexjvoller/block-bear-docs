@@ -56,6 +56,10 @@
           {
             "group": "your library",
             "pages": ["/pages/library/plans", "/pages/library/sessions"]
+          },
+          {
+            "group": "marketplace",
+            "pages": ["/pages/market/authors", "/pages/market/blocks"]
           }
         ]
       }
