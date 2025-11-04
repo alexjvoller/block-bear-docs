@@ -1,0 +1,305 @@
+---
+title: "pinboard"
+description: "card based journalling system"
+---
+
+      <Frame>
+
+  <img className="block" src="/images/m-pin.png" alt="Hero Light" />
+</Frame>
+
+| Num | Description                            |
+| --- | -------------------------------------- |
+| 1   | Pin Searchbar                          |
+| 2   | Pin Name                               |
+| 3   | Pin Active Badge Group                 |
+| 4   | Pin Options                            |
+| 5   | Grid / Card Toggle                     |
+| 6   | Activity Field Bages                   |
+| 7   | Chart                                  |
+| 8   | Actual Statistics Group                |
+| 9   | Goal Statistics Group (if active goal) |
+| 10  | Previous Pin Button                    |
+| 11  | Next Pin Button                        |
+
+## pinboard flows
+
+### toggle grid view
+
+<Steps>
+  <Step title="">
+to quickly view all the pins in the block click the grid toggle
+
+       <Frame>
+
+  <img className="block" src="/images/pinboard (grid view).png" alt="Hero Light" />
+</Frame>
+
+  </Step>
+    <Step title="">
+
+clicking on the pin card will open the nav the carousel to the pin you selected
+
+  </Step>
+</Steps>
+
+### add a pin
+
+<Steps>
+  <Step title="">
+    search the pin from searchbar and click on the search result.
+  </Step>
+</Steps>
+
+### delete a pin
+
+<Steps>
+  <Step title="">
+    select the vertical ellipses from the option-group and select delete pin
+    from the dropdown menu.
+  </Step>
+</Steps>
+
+### navigate to a different pin
+
+<Steps>
+  <Step title="">
+    either scroll through the pin carousel or select grid view to view all of
+    your pins in grid-view.
+  </Step>
+</Steps>
+
+### view pin trends
+
+<Steps>
+  <Step title="">
+    select the eye icon form the options group and select the tend you want to
+    see.
+  </Step>
+</Steps>
+
+### change field settings for an a-pin
+
+<Steps>
+  <Step title="">
+  tap the Activity Field Badges to open the select-a-pin-fields modal.
+  </Step>
+  <Step title="">
+
+         <Frame>
+
+  <img className="block" src="/images/select-a-pin-fields-modal.png" alt="Hero Light" />
+</Frame>
+
+click submit to save your changes
+
+  </Step>
+</Steps>
+
+### add journal sessions for your pin
+
+<Steps>
+  <Step title="">
+    populate your block's journal with sessions for this pin based on your
+    defined frequency by selecting the recur icon from the options-group
+
+         <Frame>
+
+  <img className="block" src="/images/add-journal-sessions-modal.png" alt="Hero Light" />
+</Frame>
+  </Step>
+</Steps>
+
+### quick add cards for your pin
+
+<Steps>
+  <Step title="">
+    you can quickly complete cards from your pin by selecting the plus icon in
+    the pin-options-group. This means for you can add completed cards without
+    having to go to the journal for those odd or one-off points you want to
+    capture.
+  </Step>
+  <Step title="">
+    Once you press the plus icon, the quick-add-card modal will present the
+    matching card for your pin with a submit button.
+  </Step>
+  <Step title="">
+    Once completed, your journal will also be updated to reflect the newly
+    complted card!
+  </Step>
+</Steps>
+
+### complete your first card
+
+<Steps>
+  <Step title="">
+    if viewing a pin that you haven't completed a card for yet, you will be
+    prompted to complete a card first from either the journal or by doing a
+    quick-add.
+
+             <Frame>
+
+  <img className="block" src="/images/no-data-error-msg.png" alt="Hero Light" />
+</Frame>
+  </Step>
+</Steps>
+
+## goal flows
+
+      <Frame>
+
+  <img className="block" src="/images/goal.png" alt="Hero Light" />
+</Frame>
+
+| Num | Description                  |
+| --- | ---------------------------- |
+| 1   | Starting Point Option Group  |
+| 2   | Finishing Point Option Group |
+| 3   | Option Group Sub-Options     |
+| 4   | Use tolererance              |
+| 5   | Start new goal phase         |
+| 6   | Forecasted Finish Value      |
+| 7   | Delete Goal Button           |
+| 8   | Submit Goal Button           |
+
+### add or edit pin goal
+
+<Steps>
+  <Step title="">
+    select the eye goal icon form the options group to open either eht
+    m-pin-goal-builder or the a-pin-goal-builder modals.
+  </Step>
+</Steps>
+
+### set a goal with a desired starting point
+
+<Steps>
+  <Step title="">
+    from the goal-builder, select set from the starting point options. The
+    starting point of the goal will be the value set in input field.
+  </Step>
+</Steps>
+
+### set a goal from you last recorded point
+
+<Steps>
+  <Step title="">
+    from the goal-builder, select "latest" from the starting point options. The
+    starting point of the goal will be the value of your last session. This
+    option will be disabled if you don't have any recorded results.
+  </Step>
+</Steps>
+
+### set a goal from a different block's projected or historical finish point
+
+<Steps>
+  <Step title="">
+    from the goal-builder, select "chain" from the starting point options. The
+    starting point of the goal will be the value of a goal in the selected block
+    that matches the pin type of your current pin. This tool enables you to
+    chain goals together through blocks to create multi-block projections. If no
+    goal in the selected block matches you current pin, or the block itself does
+    not have a start and finish because it is not scheduled, then this option
+    will be greyed out.
+  </Step>
+</Steps>
+
+### set a goal with a desired target
+
+<Steps>
+  <Step title="">
+    from the goal-builder, select set from the starting point options. The
+    starting point of the goal will be the value set in input field.
+  </Step>
+</Steps>
+
+### set a goal from you last recorded point
+
+<Steps>
+  <Step title="">
+    from the goal-builder, select "latest" from the starting point options. The
+    starting point of the goal will be the value of your last session. This
+    option will be disabled if you don't have any recorded results.
+  </Step>
+</Steps>
+
+### set a goal from a different block's projected or historical finish point
+
+<Steps>
+  <Step title="">
+    from the goal-builder, select "chain" from the starting point options. The
+    starting point of the goal will be the value of a goal in the selected block
+    that matches the pin type of your current pin. This tool enables you to
+    chain goals together through blocks to create multi-block projections. If no
+    goal in the selected block matches you current pin, or the block itself does
+    not have a start and finish because it is not scheduled, then this option
+    will be greyed out.
+  </Step>
+</Steps>
+
+### set a goal with a desired target
+
+<Steps>
+  <Step title="">
+    from the goal-builder, select your starting value and select "value". This
+    will set the forecast target to the value you set in the input field.
+  </Step>
+</Steps>
+
+### set a goal with a change target
+
+<Steps>
+  <Step title="">
+    from the goal-builder, select the desired goal type either: value, value
+    percentage, incremental value or incremental percentage.
+  </Step>
+  <Step title="">
+    Select the "use change value" from the sub-sections. This will make the
+    forecast target equal to the difference between the starting point and the
+    value you set in the input field.
+  </Step>
+</Steps>
+
+### set a goal with a percentage target
+
+<Steps>
+  <Step title="">
+    from the goal-builder, select the percentage options either "percentage" or
+    "incremental percentage".
+  </Step>
+  <Step title="">
+    The select increment period field will be viewable in the sub-section
+    options allowing you to select desired increment period throughout the block
+    with either: day, week, fortnight, monthly options. The forecast target will
+    now use the percentage value entered in the input field. Selecting "use
+    change value" use use the percentage value when calculating the difference;
+    for example -0.5% bodyweight per week is a incremental percentage goal which
+    uses a change value.
+  </Step>
+</Steps>
+
+### set a goal with an incremental target
+
+<Steps>
+  <Step title="">
+    from the goal-builder, select the incremental options either "incremental
+    value" or "incremental percentage".
+  </Step>
+  <Step title="">
+    The select increment period field will be viewable in the sub-section
+    options allowing you to select desired increment period throughout the block
+    with either: day, week, fortnight, monthly options.
+  </Step>
+</Steps>
+
+### add new goal phase
+
+<Steps>
+  <Step title="">
+    from the goal-builder, select the "start new phase" toggle
+  </Step>
+  <Step title="">
+    Choose for the new phase initial value to start from either your current
+    goal trendline, or your actual linear trendline.
+  </Step>
+</Steps>

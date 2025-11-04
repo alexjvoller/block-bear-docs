@@ -5,3 +5,64 @@
   font-style: normal;
   font-display: swap;
 }
+
+:root {
+  /* Neutrals */
+  --neutrals-1: #ffffff;
+  --neutrals-2: #fdfdfd;
+  --neutrals-3: #f6f6f7;
+  --neutrals-4: #f1f2f3;
+  --neutrals-5: #dcdee0;
+  --neutrals-6: #c5c8cb;
+  --neutrals-7: #969ca2;
+  --neutrals-8: #676f78;
+  --neutrals-9: #545e68;
+  --neutrals-10: #38434f;
+  --neutrals-11: #313d49;
+  --neutrals-12: #283441;
+  --neutrals-13: #152230;
+
+  /* Pumpkin */
+  --pumpkin-50: #fff2e8;
+  --pumpkin-75: #fec8a1;
+  --pumpkin-100: #feb17a;
+  --pumpkin-200: #fd8f40;
+  --pumpkin-300: #fd7819;
+  --pumpkin-400: #b15412;
+  --pumpkin-500: #9a490f;
+
+  /* Cardinal */
+  --cardinal-50: #f3e6ef;
+  --cardinal-100: #bc6d9f;
+  --cardinal-200: #9f2f76;
+  --cardinal-300: #8b045a;
+  --cardinal-400: #61033f;
+  --cardinal-500: #550237;
+
+  /* Remy */
+  --remy-50: #fffcfd;
+  --remy-75: #fef2f8;
+  --remy-100: #feedf5;
+  --remy-200: #fde5f0;
+  --remy-300: #fde0ed;
+  --remy-400: #b19da6;
+  --remy-500: #9a8991;
+
+  /* Lilac */
+  --lilac-50: #fcfafe;
+  --lilac-75: #f1e8f9;
+  --lilac-100: #ebdff6;
+  --lilac-200: #e2d1f3;
+  --lilac-300: #dcc8f0;
+  --lilac-400: #9a8ca8;
+  --lilac-500: #867a92;
+
+  /* Purple */
+  --purple-50: #f4effb;
+  --purple-75: #d1bfed;
+  --purple-100: #bfa4e6;
+  --purple-200: #a37ddb;
+  --purple-300: #9062d4;
+  --purple-400: #654594;
+  --purple-500: #583c81;
+}
