@@ -70,9 +70,6 @@
     "light": "/logo/Logo.svg",
     "dark": "/logo/Logo.svg"
   },
-  "background": {
-    "image": "/images/background.png"
-  },
   "navbar": {
     "links": [
       {
